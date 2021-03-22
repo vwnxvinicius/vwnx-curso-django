@@ -8,10 +8,10 @@ requests = "*"
 django = "*"
 pytest-django = "*"
 python-decouple = "*"
-heroku = "*"
 dj-database-url = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
+django-s3-folder-storage = "==0.5"
 
 [dev-packages]
 flake8 = "*"
@@ -19,3 +19,6 @@ pytest = "*"
 
 [requires]
 python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
