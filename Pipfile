@@ -12,6 +12,7 @@ dj-database-url = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 django-s3-folder-storage = "==0.5"
+collectfast = "*"
 
 [dev-packages]
 flake8 = "*"
